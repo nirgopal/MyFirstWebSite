@@ -1,0 +1,92 @@
+
+body{
+    background-image: url("https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg");
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+.btn-secondary{
+    margin-left: 700px;
+    margin-top: 220px;
+    
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    transition: all 1s;
+      
+     
+}
+.btn-secondary:hover{
+    transform:scale(1.1);
+}
+h3{
+    margin-left: 550px;
+    margin-top: 250px;
+    border-bottom: 4px solid rgb(255, 255, 255,0.5);
+
+}
+.btn-secondary:hover{
+    background-color: orange;
+}
+.item  {
+    position: relative;
+    padding: 16px 24px 24px;
+    background: #fff;
+    border: 5px solid #2b67a2;
+    border-radius: 4px;
+    /* height: 92px; */
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-between;
+    transition: all 1s;
+    
+    
+
+}
+
+.menu_items{
+    display:inline-flex;
+    justify-content: space-around;
+    
+}
+.item:hover{
+    transform: scale(1.1);
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: pink;
+    border: 5px solid pink;
+}
+
+img{
+    display:flex;  
+    width: 60px;
+    height: 80px;
+    margin: 2px;
+    transition: width 2s ease-in-out;
+    
+    
+}
+img:hover{
+    width:100px;
+}
+
+#last_image{
+    transition: all 2s;
+}
+#last_image:hover{
+    transform:rotate(1080deg);
+}
